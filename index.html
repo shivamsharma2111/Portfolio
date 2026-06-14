@@ -1,0 +1,239 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <script>
+      function showPage(pageId) {
+        var pages = document.getElementsByClassName("page");
+        for (var i = 0; i < pages.length; i++) {
+          pages[i].style.display = "none";
+        }
+        document.getElementById(pageId).style.display = "block";
+      }
+    </script>
+
+    <div class="container-fluid bgc">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="container text-center b">
+            <div class="row ">
+              <div class="col-md-12"><br>
+                <img class="borderrad img-fluid"src="p2.jpeg" alt="" /> <br /><br>
+                <h3>Shivam Sharma</h3>
+                <p class="fony">Software Developer</p>
+                <hr class="ud" style="width:180px; border: 1px solid #b9ddff;">
+              </div>
+            </div>
+            <hr />
+            <div class="row">
+              <div class="col-md-12">
+                <div class="container-fluid text-left">
+                  <div class="row p-2">
+                    <div class="col-md-2"><img class="ico" src="m/communication.png" alt=""></div>
+                    <div class="col-md-10">
+                      <p class="fony">EMAIL <br>shivamsharma.nov21 @gmail.com</p>
+                      
+                    </div>
+                  </div>
+                  <div class="row p-2">
+                    <div class="col-md-2"><img class="ico" src="m/apple.png" alt=""></div>
+                    <div class="col-md-10">
+                      <p class="fony">PHONE <br>+91 8287766511</p>
+                    </div>
+                  </div>
+                  <div class="row p-2">
+                    <div class="col-md-2"><img class="ico" src="m/arrows.png" alt=""></div>
+                    <div class="col-md-10">
+                      <p class="fony">LOCATION <br>Greater Noida, Uttar Pradesh, India</p>
+                      
+                    </div>
+                  </div>
+                  <div class="row text-center">
+                    <div class="col-md-12">
+                        <a href="https://github.com/shivamsharma2111/shivamsharma2111/"><img class="ico2 img-fluid" src="m/github.png" alt=""></a>&emsp;&emsp;
+                        <a href="https://www.linkedin.com/in/shivamsharmanov21/"><img class="ico2 img-fluid" src="m/linkedin (2).png" alt=""></a>&emsp;&emsp;
+                        <a href="https://leetcode.com/u/ShivamSharma21/"><img class="ico2 img-fluid" src="m/lc.png" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--side part-->
+        <div class="col-12 col-md-9">
+          <div class="container-fluid b">
+            <div class="row">
+              <div class="col-md-12 col-sm-0">
+                <ul class="ll d-flex flex-wrap justify-content-center float-right">
+                  <li class="l1"style="color:#9defff;" onclick="showPage('about')">About</li>
+                  <li class="l1" onclick="showPage('resume')">Resume</li>
+                  <li class="l1" onclick="showPage('portfolio')">Portfolio</li>
+                  <li class="l1" onclick="showPage('achievements')">Achievements</li>
+                </ul>
+              </div>
+            </div>
+            <div id="about" class="page">
+              <div class="row">
+              <div class="col-md-12">
+                <h2><b>ABOUT ME</b></h2>
+                <hr class="ud float-left" style=" border: 1px solid #b9ddff; width:150px; ">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <p class="fony" style="font-size:medium;">
+Hi, I'm Shivam Sharma, a 3rd-year Computer Science Engineering student passionate about building software that solves real-world problems.<br>
+<br>
+With experience in web development, freelance projects, and software testing, I have worked with technologies like Java, JavaScript, PHP, MySQL, and modern web frameworks. I enjoy creating user-friendly applications, solving coding challenges, and continuously learning new technologies.
+<br><br>
+Currently, I'm focused on strengthening my skills in Java, Data Structures & Algorithms, and the MERN stack while building projects that make an impact.
+
+                </p>
+                <br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h2>MY SKILLS</h2>
+                <hr class="ud float-left" style=" border: 1px solid #b9ddff; width:150px; ">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 b">
+                JAVA
+                <hr class="ud">
+                PHP MYSQL
+                <hr class="ud">
+                MERN STACK
+                <hr class="ud">
+                LEADERSHIP
+                <hr class="ud">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h2><b>Worked With</b></h2>
+                                <hr class="ud float-left" style=" border: 1px solid #b9ddff; width:150px; ">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6"><p class="bbb"><b>Lava International</b><br><ul>
+                <li>Raised and verified issues on Redmine and Jira for accurate tracking and faster resolution</li>
+                <li>Used ADB commands to get logs and record video for analysis.</li>
+                <li>Updated existing test cases and assisted in creating new ones.</li>
+              </ul>
+              </p>
+              </div>
+              <div class="col-12 col-md-6"><p class="bbb"><b>Softec It Solutions</b><ul>
+                <li>Built and delivered many projects and also worked on server.</li>
+                <li>Conducted maintenance on the website, increasing responsiveness by 100%.</li>
+                <li>Language learned - HTML, CSS, Bootstrap, JavaScript, PHP, MySQL.</li>
+              </ul></p><br></div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h2><b>Coursework Subjects</b></h2>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-3" ><p class="boxy">Operating System</p></div>
+                <div class="col-12 col-sm-6 col-md-3" ><p class="boxy">OOPS</p>                </div>
+                <div class="col-12 col-sm-6 col-md-3" ><p class="boxy">Computer Networks</p></div>
+                <div class="col-12 col-sm-6 col-md-3" ><p class="boxy">DBMS</p></div>
+            </div>
+            </div>
+           
+            <div id="achievements" class="page" style="display:none;">
+                          <div class="row">
+              <div class="col-md-12">
+                <h2><b>Achievement</b></h2>
+                <hr class="ud float-left" style=" border: 1px solid #b9ddff; width:150px; ">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6"><div class="bbbb"><img class="acc" src="m/leet.png" alt=""><br><b class="bbbbb">Data structures and algorithms</b><br><p>Actively solving problems on Leetcode, with over 100+ DSA problems.</p></div></div>
+              <div class="col-12 col-md-6"><div class="bbbb"><img class="acc" src="m/certiweb.png" alt=""><br><b class="bbbbb">Web Spin in Festronix</b><br><p>Scored 1st position at the Code Storm</p></div></div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-12 col-md-6"><div class="bbbb"><img class="acc" src="m/certipresentation.png" alt=""><b class="bbbbb">Innovate X Demoday</b><p>Scored 1st position Idea Presentation compititaion</p></div></div>
+              <div class="col-12 col-md-6"><div class="bbbb"><img class="acc" src="m/certiapna.png" alt=""><b class="bbbbb">DSA Cource by Apna College</b><p>Completed the Java DSA course</p></div></div>
+            </div>
+            </div>
+            <div id="resume" class="page" style="display:none;">
+                            <div class="row" >
+              <div class="col-md-12">
+                <h2><b>Resume</b></h2>
+                <hr class="ud float-left" style=" border: 1px solid #b9ddff; width:150px; ">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <p style="border: 1px solid rgba(211, 211, 211, 0.514); border-radius:5px; padding:3px; font-size:10px;">Resume Link</p>
+              </div>
+            </div>
+              <div class="row">
+              <div class="col-md-12">
+                <h3><b class="tt">Education</b></h3>
+                <ul>
+                  <li>B.Tech (CSE) || G.L Bajaj Institute of Management and Technology <p class="float-right">70% || 2028</p></li><br>
+                  <li>Diploma (IT) || Lloyd Colleg of Engineering || 75% <p class="float-right">75% || 2024</p></li><br>
+                  <li>10th || Yadu Public School <p class="float-right">2021</p></li>
+                </ul>
+
+              </div>
+            </div>
+              <div class="row">
+              <div class="col-md-12">
+                <h3><b class="tt">Experience</b></h3>
+                  <ul>
+                  <li><b style="color: #b9ddff;">Diploma Engineer Trainee (QA) | Lava International, Greater Noida</b>  <p class="float-right">(Feb‘24-Nov’24)</p>
+                    <ul>
+                      <li>Raised and verified issues on Redmine and Jira for accurate tracking and faster resolution</li>
+                      <li>Used ADB commands to get logs and record video for analysis.</li>
+                      <li>Updated existing test cases and assisted in creating new ones.</li>
+                    </ul>
+                  </li><br>
+                  <li><b style="color: #b9ddff;">Web Developer Intern | Softec It Solutions, Greater Noida </b><p class="float-right">(Oct‘21-April’22)</p>
+                    <ul>
+                      <li>Built and delivered many projects and also worked on server.</li>
+                      <li>Conducted maintenance on the website, increasing responsiveness by 100%.</li>
+                      <li>Language learned - HTML, CSS, Bootstrap, JavaScript, PHP, MySQL.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </div>
+            <div id="portfolio" class="page" style="display:none;"  >
+                          <div class="row">
+              <div class="col-md-12">
+                <h2><b>My Projects</b></h2>
+                <hr class="ud float-left" style=" border: 1px solid #b9ddff; width:150px; ">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6"><div class="bbbb2"><a href="https://www.raghavtransportationservices.com/" target="_blank"><img class="acc2" src="m/rt1.png" alt=""></a></div></div>
+              <div class="col-12 col-md-6"><div class="bbbb2"><a href="https://shivamsharma2111.github.io/KILM/" target="_blank"><img class="acc2" src="m/k1.png" alt=""></a></div></div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-12 col-md-6"><div class="bbbb2"><a href="https://shivamsharma2111.github.io/BHARATPRESS/" target="_blank"><img class="acc2" src="m/bp1.png" alt=""></a></div></div>
+              <div class="col-12 col-md-6"><div class="bbbb2"><a href="https://shivamsharma2111.github.io/Jimmy/" target="_blank"><img class="acc2" src="m/j1.png" alt=""></a></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
